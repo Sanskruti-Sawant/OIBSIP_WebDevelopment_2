@@ -30,7 +30,7 @@ To view this project, simply open the `index.html` file in your web browser. The
 
 ## Live Demo
 
-[View Live Demo](https://www.google.com/search?q=index.html)
+[Live Demo]( https://sanskruti-sawant.github.io/OIBSIP_WebDevelopment_2/)
 
 ## Files
 
