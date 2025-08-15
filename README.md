@@ -12,6 +12,12 @@ This project is a simple, single-page tribute website dedicated to the life and 
   * [Live Demo](https://www.google.com/search?q=%23live-demo)
   * [Files](https://www.google.com/search?q=%23files)
 
+
+## Page View
+<img width="759" height="995" alt="image" src="https://github.com/user-attachments/assets/b37235cc-cc41-445c-8a61-88b8655737d5" />
+
+
+
 ## Features
 
   * **Responsive Design:** The page is designed to be easily viewed on various devices, from desktop computers to mobile phones, thanks to CSS media queries.
