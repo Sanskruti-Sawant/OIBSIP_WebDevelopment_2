@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.simple-header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+}
+
+.simple-header .header-title {
+    font-size: 1.25em;
+    font-weight: 700;
+    margin: 0;
+    color: #333;
+}
+
+.simple-header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.simple-header .nav-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.simple-header .nav-link:hover {
+    color: #57a6ff; 
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.main-page-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+.main-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.achievements-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements-list li {
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .simple-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 20px;
+    }
+    .simple-header nav {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .content {
+        padding: 20px;
+    }
+    .main-page-title {
+        font-size: 2em;
+    }
+}
