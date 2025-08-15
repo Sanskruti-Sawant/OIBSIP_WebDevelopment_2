@@ -6,11 +6,11 @@ This project is a simple, single-page tribute website dedicated to the life and 
 
 ## Table of Contents
 
-  * [Features](https://www.google.com/search?q=%23features)
-  * [Technologies Used](https://www.google.com/search?q=%23technologies-used)
-  * [How to Run](https://www.google.com/search?q=%23how-to-run)
-  * [Live Demo](https://www.google.com/search?q=%23live-demo)
-  * [Files](https://www.google.com/search?q=%23files)
+  * [Features](#Features)
+  * [Technologies Used](#Technologies-Used)
+  * [How to Run](#How-to-Run)
+  * [Live Demo](#Live-Demo)
+  * [Files](#Files)
 
 
 ## Page View
